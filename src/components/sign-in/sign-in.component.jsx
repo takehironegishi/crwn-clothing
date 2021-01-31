@@ -59,7 +59,11 @@ class SignIn extends React.Component {
           />
           <div className="buttons">
             <CustonButton type="submit"> Sign in </CustonButton>
-            <CustonButton onClick={signInWithGoogle} isGoogleSignIn>
+            <CustonButton
+              type="button"
+              onClick={signInWithGoogle}
+              isGoogleSignIn
+            >
               {' '}
               Sign in with Google{' '}
             </CustonButton>
